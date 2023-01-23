@@ -1,17 +1,15 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 body {
   text-align: center;
-  font-family: 'Inter';
-  
+  font-family: "Inter";
 }
 
-
-.container{
+.container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -21,18 +19,18 @@ body {
   background-color: whitesmoke;
 }
 
-@media(min-width:700px){
-  .container{
-  width: 60%;
-  margin: auto;
-}
+@media (min-width: 700px) {
+  .container {
+    width: 60%;
+    margin: auto;
+  }
 }
 
 /* Header */
-header{
+header {
   width: 100%;
-  background-color: #6943FF;;
-  display:flex;
+  background-color: #6943ff;
+  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
@@ -40,19 +38,17 @@ header{
 }
 /* Heading */
 
-
-
-.heading-text{
-font-size: 28px;
-letter-spacing: -0.03em;
-color: #FFFFFF;
-margin-bottom: 1rem;
+.heading-text {
+  font-size: 28px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  margin-bottom: 1rem;
 }
 
-input{
+input {
   font-size: 3rem;
   height: 3em;
-  width:3em;
+  width: 3em;
   border: 1.2px solid white;
   padding: 0.5em;
   margin-bottom: 1rem;
@@ -60,40 +56,37 @@ input{
   border-radius: 0.1em;
 }
 
-.convert-button{
-  
+.convert-button {
   font-size: 1rem;
   background: whitesmoke;
   border: none;
   padding: 0.6em 2em;
   border-radius: 0.4em;
-  
 }
 
-
 /* Conversions */
-.conversions-container{
+.conversions-container {
   margin-top: 2em;
   width: 100%;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  gap:2rem;
+  gap: 2rem;
   padding: 2em 0em;
 }
 
-.conversion-item{
-  display:flex;
+.conversion-item {
+  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  gap:0.25em;
+  gap: 0.25em;
   background-color: white;
   width: 90%;
   padding: 2em 1em;
 }
 
-.conversion-header{
+.conversion-header {
   font-size: 1.5rem;
 }
