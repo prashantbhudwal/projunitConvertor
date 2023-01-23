@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+body {
+  text-align: center;
+  font-family: 'Inter';
+  
+}
+
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: space-between;
+  max-width: 600px;
+  background-color: whitesmoke;
+}
+
+@media(min-width:700px){
+  .container{
+  width: 60%;
+  margin: auto;
+}
+}
+
+/* Header */
+header{
+  width: 100%;
+  background-color: #6943FF;;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1em 2em;
+}
+/* Heading */
+
+
+
+.heading-text{
+font-size: 28px;
+letter-spacing: -0.03em;
+color: #FFFFFF;
+margin-bottom: 1rem;
+}
+
+input{
+  font-size: 3rem;
+  height: 3em;
+  width:3em;
+  border: 1.2px solid white;
+  padding: 0.5em;
+  margin-bottom: 1rem;
+  background-color: inherit;
+  border-radius: 0.1em;
+}
+
+.convert-button{
+  
+  font-size: 1rem;
+  background: whitesmoke;
+  border: none;
+  padding: 0.6em 2em;
+  border-radius: 0.4em;
+  
+}
+
+
+/* Conversions */
+.conversions-container{
+  margin-top: 2em;
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap:2rem;
+  padding: 2em 0em;
+}
+
+.conversion-item{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap:0.25em;
+  background-color: white;
+  width: 90%;
+  padding: 2em 1em;
+}
+
+.conversion-header{
+  font-size: 1.5rem;
+}
